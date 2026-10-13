@@ -1,0 +1,11 @@
+-> varibales {
+
+    defendation : key storea value
+    usage : can re-use this key
+    syntax : -> custom property
+                :root{
+                    --key : value ;
+                    --color : yellow
+                }
+    to use it  : var(--color)
+}
